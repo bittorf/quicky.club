@@ -29,4 +29,9 @@ cat >dest/index.html <<EOF
 </html>
 EOF
 
+echo
+echo "# list all files in dest/"
+( cd dest && find . -type f -ls )
+
+echo
 exit 0
