@@ -29,6 +29,9 @@ cat >dest/index.html <<EOF
 </html>
 EOF
 
+cp sitemap.xml dest/
+cp robots.txt dest/
+
 echo
 echo "# list all files in dest/"
 ( cd dest && find . -type f -ls )
