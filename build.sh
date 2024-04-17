@@ -17,7 +17,7 @@ cat >dest/index.html <<EOF
  <link rel="canonical" href="https://quicky.club">
 </head>
 
-<body>
+<body bgcolor=lime>
 
 <b>Impressum:</b>
 <h3>Bittorf</h3>
