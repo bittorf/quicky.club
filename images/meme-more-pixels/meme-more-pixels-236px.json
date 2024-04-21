@@ -1,0 +1,12 @@
+{
+ "url": "http://bwireless.mooo.com/4d7.jpg-8791bytes-to-keeppx-stuff",
+ "original": "/home/bastian/software/quicky.club/4d7.jpg JPEG 236x212 236x212+0+0 8-bit sRGB 8791B 0.000u 0:00.000",
+ "original_size": 8791,
+ "width": 236,
+ "height": 212,
+ "basename": "meme-more-pixels-236px",
+ "avif": { "size": 2136, "ssimulacra2": 49.44, "butteraugli":  9.82, "method": "avifenc-avif-unchanged-18%", "file": "image-avifenc-236px-quality-18-unchanged.avif" },
+ "webp": { "size": 2258, "ssimulacra2": 40.84, "butteraugli": 11.38, "method": "imagemagick-webp-unchanged-3%", "file": "image-imagemagick-236px-quality-3-unchanged.webp" },
+ "jpg":  { "size": 2753, "ssimulacra2": 26.10, "butteraugli": 11.17, "method": "mozcjpeg-jpg-unchanged-12%", "file": "image-mozcjpeg-236px-quality-12-unchanged.jpg" },
+ "formats": [ "avif", "webp", "jpg" ]
+}
