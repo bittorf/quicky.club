@@ -29,6 +29,14 @@ cat >dest/index.html <<EOF
 </html>
 EOF
 
+test -d dest && rm -fR dest
+cp -pR images/ dest/
+
+cp normalize.css dest/
+cp magick.css dest/
+cp private.css dest/
+
+cp index.html dest/
 cp sitemap.xml dest/
 cp robots.txt dest/
 
