@@ -36,6 +36,8 @@ example.href
 	exit 1
 }
 
+command -v 'jq' >/dev/null || { echo "[ERROR] missing 'jq' command"; exit 1; }
+
 # default=lazy
 # <!-- image:strecke1-komoot-vorschau template:figcaption -->
 listoutput_basename_and_template_type()
