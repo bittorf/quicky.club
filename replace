@@ -171,15 +171,17 @@ while read -r LINE <&4; do {
 					[ -n "$HREF" ] && \
 					echo " </a>"
 
-					echo "  <figcaption>"
+					case "$TEMPLATE" in *nofigcaption*) ;; *)
+						echo "  <figcaption>"
 
-					if [ -n "$HREF" ]; then
-						echo "   <a href='$HREF'>$TITLE</a>"
-					else
-						echo "$TITLE"
-					fi
+						if [ -n "$HREF" ]; then
+							echo "   <a href='$HREF'>$TITLE</a>"
+						else
+							echo "$TITLE"
+						fi
 
-					echo "  </figcaption>"
+						echo "  </figcaption>"
+					esac
 					echo "</figure>"
 				}
 			;;
