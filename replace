@@ -88,7 +88,7 @@ while read -r LINE <&4; do {
 
 	while read -r JSON <&5; do {
 		DIR="$( dirname -- "$JSON" )"
-		LIST_FORMATS="$( jq -r '.formats | join(" ")' "$JSON" )"	# e.g. avif webp jpg
+		LIST_FORMATS="$( jq -r '.formats | join(" ")' "$JSON" | tr ' ' '\n' | sort -u )"	# e.g. avif webp jpg
 		BASENAME="$(     jq -r '.basename' "$JSON" )"
 		WIDTH="$(        jq -r '.width'    "$JSON" )"
 		HEIGHT="$(       jq -r '.height'   "$JSON" )"
