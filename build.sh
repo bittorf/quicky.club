@@ -39,6 +39,13 @@ cp index.html dest/
 cp sitemap.xml dest/
 cp robots.txt dest/
 
+unix2iso8601() { date +'%Y-%m-%dT%H:%M:%S%:z' -d@"$1"; }
+PATTERN='2024-04-17T20:33:40+00:00-A'
+UNIX="$( date +%s )"
+NEW="$( unix2iso8601 "$UNIX" )"
+sed -i "s/$PATTERN/$NEW/" dest/sitemap.xml
+
+
 echo
 echo "# list all files in dest/"
 ( cd dest && find . -type f -ls )
