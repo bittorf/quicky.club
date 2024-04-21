@@ -37,6 +37,7 @@ cp private.css dest/
 
 cp logo-variante1-quicky-club.png dest/images/
 cp logo-variante2-quicky-club.png dest/images/
+cp translate.svg dest/
 
 cp index.html dest/
 cp sitemap.xml dest/
