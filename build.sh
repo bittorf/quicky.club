@@ -35,6 +35,9 @@ cp normalize.css dest/
 cp magick.css dest/
 cp private.css dest/
 
+cp logo-variante1-quicky-club.png dest/images/
+cp logo-variante2-quicky-club.png dest/images/
+
 cp index.html dest/
 cp sitemap.xml dest/
 cp robots.txt dest/
