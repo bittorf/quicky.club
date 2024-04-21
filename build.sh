@@ -39,7 +39,7 @@ cp logo-variante1-quicky-club.png dest/images/
 cp logo-variante2-quicky-club.png dest/images/
 cp translate.svg dest/
 
-cp index.html dest/
+cp index.html dest/index-raw.html
 cp sitemap.xml dest/
 cp robots.txt dest/
 
@@ -48,6 +48,8 @@ PATTERN='2024-04-17T20:33:40+00:00-A'
 UNIX="$( date +%s )"
 NEW="$( unix2iso8601 "$UNIX" )"
 sed -i "s/$PATTERN/$NEW/" dest/sitemap.xml
+
+( cd dest/images && ../../replace ../index-raw.html . >../index.html )
 
 
 echo
