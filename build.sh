@@ -1,5 +1,17 @@
 #!/bin/sh
 
+command -v 'asdf' && {
+  # https://arup.dev/blog/2024/jekyll-cloudflare-pages-imagemagick/
+  # https://asdf-vm.com/
+  # https://github.com/asdf-vm/asdf-plugins
+
+  command -v 'jq' || {
+        asdf plugin-add jq
+        asdf install jq latest
+        asdf global jq latest
+  }
+}
+
 test -d dest && rm -fR dest
 mkdir -p dest
 cp -pR images/ dest/
