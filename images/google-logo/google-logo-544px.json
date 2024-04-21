@@ -1,0 +1,11 @@
+{
+ "url": "http://bwireless.mooo.com/www.google.com-googlelogo_color_272x92dp.png-13504bytes-to-keeppx-stuff",
+ "original": "/tmp/www.google.com-googlelogo_color_272x92dp.png PNG 544x184 544x184+0+0 8-bit sRGB 13504B 0.000u 0:00.000",
+ "original_size": 13504,
+ "width": 544,
+ "height": 180,
+ "basename": "google-logo-544px",
+ "png":  { "size": 2810, "ssimulacra2": 83.95, "butteraugli":  5.63, "method": "pngquant-png-unchanged-1%", "file": "image-pngquant-544px-quality-1-unchanged.png" },
+ "png":  { "size": 13504, "ssimulacra2": 100.00, "butteraugli": 0, "method": "original", "file": "original-plain-copy.bin" },
+ "formats": [ "png", "png" ]
+}

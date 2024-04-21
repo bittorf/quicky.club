@@ -1,6 +1,8 @@
 #!/bin/sh
 
+test -d dest && rm -fR dest
 mkdir -p dest
+cp -pR images/ dest/
 
 cat >dest/index.html <<EOF
 <!DOCTYPE html>
@@ -28,9 +30,6 @@ cat >dest/index.html <<EOF
 
 </html>
 EOF
-
-test -d dest && rm -fR dest
-cp -pR images/ dest/
 
 cp normalize.css dest/
 cp magick.css dest/

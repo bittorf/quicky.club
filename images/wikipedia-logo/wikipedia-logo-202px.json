@@ -1,0 +1,13 @@
+{
+ "url": "http://bwireless.mooo.com/dewiki-1.5x.png-13744bytes-to-keeppx-stuff",
+ "original": "/home/bastian/software/quicky.club/dewiki-1.5x.png PNG 202x232 202x232+0+0 8-bit sRGB 13744B 0.000u 0:00.000",
+ "original_size": 13744,
+ "width": 202,
+ "height": 232,
+ "basename": "wikipedia-logo-202px",
+ "avif": { "size": 4821, "ssimulacra2": 69.36, "butteraugli":  3.96, "method": "avifenc-avif-unchanged-35%", "file": "image-avifenc-202px-quality-35-unchanged.avif" },
+ "webp": { "size": 6102, "ssimulacra2": 77.15, "butteraugli":  3.04, "method": "imagemagick-webp-c256-60%", "file": "image-imagemagick-202px-quality-60-c256.webp" },
+ "png":  { "size": 6702, "ssimulacra2": 78.26, "butteraugli":  4.12, "method": "pngquant-png-unchanged-6%", "file": "image-pngquant-202px-quality-6-unchanged.png" },
+ "png":  { "size": 13744, "ssimulacra2": 100.00, "butteraugli": 0, "method": "original", "file": "original-plain-copy.bin" },
+ "formats": [ "avif", "webp", "png", "png" ]
+}
