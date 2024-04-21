@@ -1,0 +1,10 @@
+{
+ "url": "http://bwireless.mooo.com/logo-variante1-quicky-club-symbol.png-8498bytes-to-180px-stuff",
+ "original": "/home/bastian/software/quicky.club/logo-variante1-quicky-club-symbol.png PNG 99x99 99x99+0+0 8-bit sRGB 8498B 0.000u 0:00.001",
+ "original_size": 8498,
+ "width": 180,
+ "height": 180,
+ "basename": "logo-variante1-quicky-club-symbol-180px",
+ "png":  { "size": 556, "ssimulacra2": 40.93, "butteraugli":  7.02, "method": "pngquant-png-unchanged-1%", "file": "image-pngquant-180px-quality-1-unchanged.png" },
+ "formats": [ "png" ]
+}
