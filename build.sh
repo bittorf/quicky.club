@@ -55,6 +55,7 @@ cp index.html dest/index-raw.html
 cp sitemap.xml dest/
 cp robots.txt dest/
 cp security.txt dest/
+cp favicon.ico dest/
 
 unix2iso8601() { date +'%Y-%m-%dT%H:%M:%S%:z' -d@"$1"; }
 PATTERN='2024-04-17T20:33:40+00:00-A'
