@@ -1,0 +1,5 @@
+Contact: mailto:security@quicky.club
+Expires: 2024-12-31T22:59:00.000Z
+Preferred-Languages: de,en,ru
+Canonical: https://quicky.club/security.txt
+
